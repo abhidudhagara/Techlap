@@ -1,0 +1,10 @@
+- categories
+- banners
+- admin profile page
+- site settings
+- responses
+- reviews
+- offers
+- orders
+- products
+- users
