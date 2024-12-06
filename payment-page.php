@@ -42,7 +42,7 @@ try {
     <div class="container">
         <div class="row text-center">
             <div class="col-12 p-2 align-center">
-                <h1>Paying to PureBite</h1>
+                <h1>Paying to Techlap</h1>
             </div>
         </div>
         <br>
@@ -85,9 +85,8 @@ try {
                             "amount": "<?php //echo $total * 100; 
                                         ?>", // Amount in paise
                             "currency": "INR",
-                            "name": "PureBite Grocery",
+                            "name": "PureB",
                             "description": "Online Transaction",
-                            "image": "img/favicon.jpg",
                             "order_id": "<?php //echo $order_id; 
                                             ?>", // Razorpay Order ID
                             "prefill": {
@@ -139,7 +138,7 @@ try {
                                 "amount": <?php echo $_SESSION['total-pay']['total'] * 100; ?>, // Amount in paise
                                 "currency": "INR",
                                 "order_id": razorpay_order_id,
-                                "name": "PureBite Grocery",
+                                "name": "Techlap",
                                 "description": "Online Transaction",
                                 "image": "img/favicon.jpg", // Logo for your business
                                 "handler": function(response) {

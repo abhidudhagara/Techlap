@@ -130,12 +130,6 @@ if (isset($_SESSION['user_id'])) {
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-end align-items-center  hidden" id="SearchSection">
-                    <form class="d-flex justify-content-end">
-                        <input class="search-input" type="search" placeholder="Search for items..." size="25" id="searchBar">
-                        <button class="primary-btn me-3 search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </div>
             </div>
         </nav>
     <?php } else { ?>
@@ -165,14 +159,8 @@ if (isset($_SESSION['user_id'])) {
                         <form class="d-flex flex-nowrap justify-content-end">
                             <input class="search-input" type="search" placeholder="Search for items..." size="25" id="SearchSection2">
                             <button class="primary-btn me-3 search-button" id="SearchSection3"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            <a class="header-btn" href="register.php">Register</a>
-                            <a class="header-btn" href="login.php">Login</a>
-                        </form>
-                    </div>
-                    <div class="d-flex justify-content-end align-items-center w-100 hidden" id="SearchSection">
-                        <form class="d-flex justify-content-end width-100">
-                            <input class="search-input" type="search" placeholder="Search for items..." size="25" id="searchBar">
-                            <button class="primary-btn me-3 search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            <a class="btn btn-outline-dark me-2" href="register.php">Register</a>
+                            <a class="btn btn-outline-dark" href="login.php">Login</a>
                         </form>
                     </div>
                 </div>
